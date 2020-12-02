@@ -388,7 +388,7 @@ int main()
     case 4:
         cout<<"Massage"<<endl;
         cout<<""<<endl;
-        cout<<"Hi am Aftab, Rakin Sad Aftab. Am studying CS at American International University-Bangladesh. This is like a project.\nI didn't done it well because still am not understand the f****** [for loop].\nAm trying to learn it."<<endl;
+        cout<<"Hi am Aftab, Rakin Sad Aftab. Am studying CS at American International University-Bangladesh. This is like a project.\nI didn't done it well because still am not understand the [for loop].\nAm trying to learn it."<<endl;
         cout<<"In this program you will face just one problem. That is you need to login as long as you want to know informations.\nOtherwise you will not face any problem. I am trying more and more to learn for loop properly.  "<<endl;
         cout<<"And am using some funny words which is not related with my University Activity. Don't take it seriously."<<endl;
         cout<<"Thank You for understanding."<<endl;

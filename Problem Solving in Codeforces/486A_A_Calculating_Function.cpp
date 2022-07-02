@@ -3,17 +3,22 @@ using namespace std;
 
 int main()
 {
-    int n, m;
+    long long n, m;
     cin>>n;
 
     if(n % 2 == 0)
     {
         m = n / 2;
+        cout << m << endl;
+    }
+    else if (n % 2 != 0)
+    {
+        m = -((n/2)+1);
+        cout << m << endl;
     }
     else
     {
-        m = ((n + 1) / 2) * (-1);
+        
     }
-     cout<<m<<endl;
     return 0;
 }

@@ -25,7 +25,7 @@ class sybmoltable
         }
         else
         {
-            cout << "Invalid input" << endl;
+            cout << "Invalid" << endl;
         }
     }
 

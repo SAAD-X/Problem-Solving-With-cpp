@@ -7,6 +7,7 @@ class sybmoltable
     string identifier[5];
     string operators[5];
     string punctuation[5];
+    string releaseToken[5];
 
     public:
     sybmoltable(string a, string b, string c)
@@ -46,13 +47,43 @@ class sybmoltable
         punctuation[0] = c;
         //cout << "Punctuation: " << punctuation[0] << endl;
     }
+    void searchtoken(string s)
+    {
+        for (int i = 0; i < identifier[5].size(); i++)
+        {
+            if (s == identifier[0])
+            {
+                releaseToken[0] = s;
+                cout<< releaseToken[0] << endl;
+            }
+        }
+
+        for (int i = 0; i < operators[5].size(); i++)
+        {
+            if (s == operators[0])
+            {
+                releaseToken[0] = s;
+                cout << releaseToken[0] << endl;
+            }
+        }
+
+        for (int i = 0; i < punctuation[5].size(); i++)
+        {
+            if (s == punctuation[0])
+            {
+                releaseToken[0] = s;
+                cout << releaseToken[0] << endl;
+            }
+        }
+    }
 };
 
 int main()
 {
     sybmoltable obj("op", "id", "punc");
-    // obj.identifiers("op");
-    // obj.operatorss("id");
-    // obj.punctuations("punc");
+    obj.identifiers("op");
+    obj.operatorss("id");
+    obj.punctuations("punc");
+    obj.searchtoken("op");
     return 0;
 }

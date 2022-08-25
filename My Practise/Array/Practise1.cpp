@@ -12,7 +12,7 @@ int main()
     //return 0;
 }*/
 
-#include<iostream>
+/*#include<iostream>
 
 using namespace std;
 
@@ -22,4 +22,16 @@ int main()
     cout << num[0] <<endl;
     cout << num[9] << endl;
     
+}*/
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string cars[5] = {"BMW", "FORD", "GTR", "LAMBORGHINI", "PORSCHE"};
+
+    cout << cars[0]+", "+cars[1]<<endl;
+
+    return 0;
 }

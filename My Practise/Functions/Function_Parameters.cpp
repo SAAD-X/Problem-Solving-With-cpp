@@ -1,10 +1,8 @@
 #include<iostream>
 using namespace std;
 
-void lax()
+void lax(int a)
 {
-    int a = 10;
-
     for (int i = 0; i < a; i++)
     {
         cout<<i<<endl;
@@ -14,6 +12,6 @@ void lax()
 
 int main()
 {
-    lax();
-    return 0;   
+    lax(10);
+    return 0;
 }

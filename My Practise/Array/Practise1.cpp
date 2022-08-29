@@ -51,7 +51,7 @@ int main()
 }*/
 
 //Multi-Dimensional Arrays
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 int main()
@@ -64,5 +64,28 @@ int main()
 
     cout<<cars[1][0]<<endl;
 
+    return 0;
+}*/
+
+// Multi-Dimensional Arrays with for loop
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string cars[2][3] = 
+    {
+        {"BMW", "FORD", "GTR"},
+        {"LAMBORGHINI", "PORSCHE", "AUDI"}
+    };
+
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout<<cars[i][j]<<", ";
+        }
+    }
+    
     return 0;
 }

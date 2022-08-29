@@ -24,7 +24,7 @@ int main()
     
 }*/
 
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 int main()
@@ -32,6 +32,37 @@ int main()
     string cars[5] = {"BMW", "FORD", "GTR", "LAMBORGHINI", "PORSCHE"};
 
     cout << cars[0]+", "+cars[1]<<endl;
+
+    return 0;
+}*/
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    string cars[5]= {"BMW", "FORD", "GTR", "LAMBORGHINI", "PORSCHE"};
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<i<<": "<<cars[i]<<endl;
+    }
+    return 0;
+}*/
+
+//Multi-Dimensional Arrays
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string cars[2][3] = 
+    {
+        {"BMW", "FORD", "GTR"},
+        {"LAMBORGHINI", "PORSCHE", "AUDI"}
+    };
+
+    cout<<cars[1][0]<<endl;
 
     return 0;
 }
